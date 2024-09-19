@@ -1,0 +1,20 @@
+{
+  "name": "skytec-test-task-web-server",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "author": "leonidb4",
+  "description": "Web server with user and payment tables",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "bignumber.js": "^9.1.2",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21"
+  }
+}
